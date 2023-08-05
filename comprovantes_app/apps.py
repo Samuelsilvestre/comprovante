@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class RegistroComprovantesConfig(AppConfig):
+class ComprovantesAppConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'registro_comprovantes'
+    name = 'comprovantes_app'

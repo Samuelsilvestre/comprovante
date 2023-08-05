@@ -30,7 +30,7 @@ INSTALLED_APPS = [
 
     #app
     'usuario',
-    'registro_comprovantes'
+    'comprovantes_app'
 ]
 
 MIDDLEWARE = [
