@@ -117,7 +117,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 NEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 #url auth
-#LOGIN_REDIRECT_URL = 'index'
+LOGIN_REDIRECT_URL = 'index'
 LOGIN_URL = 'login'
 LOGOUT_URL = 'login'
 

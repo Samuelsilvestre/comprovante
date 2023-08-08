@@ -12,3 +12,6 @@ class Comprovante(Base):
     detalhes = models.TextField()
     comprovante = models.FileField(upload_to = 'comprovantes/')
 
+    def __str__(self) -> str:
+        return f'{self.usuario} registrou {self.date}'
+
