@@ -4,5 +4,5 @@ from .views import *
 
 urlpatterns = [
     path('', ComprovanteCreateView.as_view(), name = 'form_comprovante'),
-    path('ok/', ok, name = 'ok')
+    path('comprovante/list/', ComprovanteListView.as_view(), name = 'comprovante_list')
 ]

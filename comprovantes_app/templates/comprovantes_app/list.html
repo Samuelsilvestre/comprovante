@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Comprovantes</title>
+</head>
+<body>
+    <main>
+        <h3>{{ object.usuario }} seus comprovantes enviados</h3>
+        {% for obj in object %}
+        <h4>registrado {{ obj.date }}</h4>
+        <p>{{ obj.detalhes }}</p>
+        <a href="{{ obj.comprovante.url }}">ver documento</a>
+        {% endfor %}
+    </main>
+</body>
+</html>
